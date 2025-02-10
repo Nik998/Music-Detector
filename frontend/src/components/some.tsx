@@ -46,7 +46,9 @@ export function Some() {
 
                             return (
                                 <div key={href} className="flex items-center">
-                                    <BreadcrumbSeparator />
+                                    <BreadcrumbSeparator>
+                                        <ChevronRight className="w-4 h-4" />
+                                    </BreadcrumbSeparator>
                                     <BreadcrumbItem>
                                         {!isLast ? (
                                             <BreadcrumbLink asChild>

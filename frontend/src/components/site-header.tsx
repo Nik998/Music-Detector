@@ -34,7 +34,7 @@ export function SiteHeader() {
           className="h-fill w-fill py-5"
         />
 
-        <Separator orientation="vertical" className="h-6" />
+        <Separator orientation="vertical" className="mx-2 h-10" />
 
         <span className="text-lg">Live Music Detector</span>
 

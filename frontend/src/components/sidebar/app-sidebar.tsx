@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import {
+  LucideIcon,
   Home,
   Music,
   Settings,
@@ -21,7 +22,7 @@ type ContentItem = {
   header: string
   items: {
     title: string
-    icon: React.ComponentType
+    icon: LucideIcon
     url: string
   }[]
 }
